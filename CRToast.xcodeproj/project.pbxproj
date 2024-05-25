@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		464D04B11BD21AC300E0E90A /* CRToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 464D04B01BD21AC300E0E90A /* CRToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		464D04BF1BD21CB400E0E90A /* CRToastConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 65986EDF1B9E21FE00BCA1C3 /* CRToastConfig.m */; settings = {ASSET_TAGS = (); }; };
-		464D04C01BD21CB800E0E90A /* CRToastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65986EE21B9E21FE00BCA1C3 /* CRToastManager.m */; settings = {ASSET_TAGS = (); }; };
-		464D04C11BD21CBB00E0E90A /* CRToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65986EE41B9E21FE00BCA1C3 /* CRToastView.m */; settings = {ASSET_TAGS = (); }; };
-		464D04C21BD21CBD00E0E90A /* CRToastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65986EE61B9E21FE00BCA1C3 /* CRToastViewController.m */; settings = {ASSET_TAGS = (); }; };
-		464D04C31BD21CC000E0E90A /* CRToastWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 65986EE81B9E21FE00BCA1C3 /* CRToastWindow.m */; settings = {ASSET_TAGS = (); }; };
-		464D04CD1BD2218900E0E90A /* CRToast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65986EC11B9E21DC00BCA1C3 /* CRToast.framework */; settings = {ASSET_TAGS = (); }; };
-		464D04D61BD221A400E0E90A /* CRToastManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 464D04D31BD221A400E0E90A /* CRToastManagerTests.m */; settings = {ASSET_TAGS = (); }; };
-		464D04D81BD221A400E0E90A /* CRToastViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 464D04D51BD221A400E0E90A /* CRToastViewTests.m */; settings = {ASSET_TAGS = (); }; };
+		464D04BF1BD21CB400E0E90A /* CRToastConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 65986EDF1B9E21FE00BCA1C3 /* CRToastConfig.m */; };
+		464D04C01BD21CB800E0E90A /* CRToastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65986EE21B9E21FE00BCA1C3 /* CRToastManager.m */; };
+		464D04C11BD21CBB00E0E90A /* CRToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65986EE41B9E21FE00BCA1C3 /* CRToastView.m */; };
+		464D04C21BD21CBD00E0E90A /* CRToastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65986EE61B9E21FE00BCA1C3 /* CRToastViewController.m */; };
+		464D04C31BD21CC000E0E90A /* CRToastWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 65986EE81B9E21FE00BCA1C3 /* CRToastWindow.m */; };
+		464D04CD1BD2218900E0E90A /* CRToast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65986EC11B9E21DC00BCA1C3 /* CRToast.framework */; };
+		464D04D61BD221A400E0E90A /* CRToastManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 464D04D31BD221A400E0E90A /* CRToastManagerTests.m */; };
+		464D04D81BD221A400E0E90A /* CRToastViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 464D04D51BD221A400E0E90A /* CRToastViewTests.m */; };
 		65986EE91B9E21FE00BCA1C3 /* CRToastConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 65986EDE1B9E21FE00BCA1C3 /* CRToastConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65986EEA1B9E21FE00BCA1C3 /* CRToastConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 65986EDF1B9E21FE00BCA1C3 /* CRToastConfig.m */; };
 		65986EEB1B9E21FE00BCA1C3 /* CRToastLayoutHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 65986EE01B9E21FE00BCA1C3 /* CRToastLayoutHelpers.h */; };
@@ -270,6 +270,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 65986EB71B9E21DC00BCA1C3;
@@ -429,7 +430,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -470,7 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -489,7 +490,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/CRToast/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cruffenach.CRToast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -506,7 +507,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/CRToast/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cruffenach.CRToast;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -77,7 +77,8 @@ BOOL CRToastInteractionResponderIsSwipe(CRToastInteractionType interactionType) 
     return CRToastInteractionTypeSwipe & interactionType;
 }
 
-BOOL CRToastInteractionResponderIsTap(interactionType) {
+BOOL CRToastInteractionResponderIsTap(interactionType)   int interactionType;
+{
     return CRToastInteractionTypeTap & interactionType;
 }
 
